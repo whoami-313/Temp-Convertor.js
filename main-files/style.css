@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "fruit";
+    src: url(../fonts/FruitDays/Fruit\ Days.ttf) format("truetype");
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fruit;
+    background-image: url(../images/pic1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    background-color: #ffffff50;
+    backdrop-filter: blur(5px);
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 100px auto;
+    padding: 0 30px;
+    border: 2px solid transparent;
+    box-shadow: 5px 5px 25px #ffffff50, 10px 10px 25px #ffffff50;
+}
+#title {
+    text-align: center;
+    font-size: 45px;
+}
+#input {
+    display: block;
+    outline: none;
+    border: 2px solid #4A148C;
+    background-color: #ffffff90;
+    border-radius: 25px;
+    padding: 7px 30px;
+    margin: 50px auto 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: fruit;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#input:focus {
+    box-shadow: 0 0 5px var(--clr),
+    0 0 10px var(--clr),
+    0 0 25px var(--clr),
+    0 0 50px var(--clr);
+}
+#result {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0 0;
+    color: #311B92;
+}
+.btns {
+    text-align: center;
+    margin: 136px auto 0;
+}
+.btns button {
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 40px;
+    font-family: fruit;
+    font-size: 25px;
+    background-color: #263238;
+    color: var(--clr);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    width: 115px;
+    height: 45px;
+}
+.btns button:hover {
+    box-shadow: 0 0 5px var(--clr),
+    0 0 10px var(--clr),
+    0 0 25px var(--clr),
+    0 0 50px var(--clr);
+}
