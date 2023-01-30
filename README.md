@@ -4,6 +4,8 @@
 
 <h2 align="center">✔ A cool temp convertor with html, css & javascript !</h2>
 
+<hr>
+
 <h3>🖊️ Languages :</h3>
 
 <hr>
