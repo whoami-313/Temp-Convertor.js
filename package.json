@@ -1,0 +1,26 @@
+{
+  "name": "temp-convertor",
+  "version": "1.0.0",
+  "description": "A cool temp convertor with html, css &amp; javascript",
+  "main": "app.js",
+  "dependencies": {
+    "sweetalert2": "^11.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoami-313/Temp-Convertor.js.git"
+  },
+  "keywords": [
+    "convertor"
+  ],
+  "author": "whoami313",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whoami-313/Temp-Convertor.js/issues"
+  },
+  "homepage": "https://github.com/whoami-313/Temp-Convertor.js#readme"
+}
